@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.overall-container {
+  display: flex;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #64748b;
+  min-height: 100vh;
+  width: 60vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.app-container {
+  width: 90%;
+}
+
+.event-item-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+
+.status-container {
+  width: 40vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-align: center;
+  align-self: flex-start;
+  width: 95%;
+  padding-top: 40px;
+  font-weight: 500;
+}
